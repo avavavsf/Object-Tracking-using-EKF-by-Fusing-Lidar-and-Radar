@@ -1,7 +1,12 @@
 # Object Tracking using EKF by Fusing Lidar and Radar data
+[//]: # (Image References)
+[image1]: ./output_image/general_flow.png
+[image2]: ./output_image/track1.png
+[image3]: ./output_image/track2.png
 
----
 
+## Workflow
+![alt text][image1]
 ## Dependencies
 
 * cmake >= 3.5
