@@ -26,9 +26,9 @@ est_px est_py est_vx est_vy meas_px meas_py gt_px gt_py gt_vx gt_vy
 
 ## Results
 We have generated two simulated tracking data to test our implementation, here is the tracking results.
-Track 1.
+Track 1. px, py, vx, and vy RMSE: [0.0673348, 0.060873, 0.542241, 0.54518] meters
 ![alt text][image2]
-Track 2.
+Track 2. px, py, vx, and vy RMSE: [0.186505, 0.190536, 0.499525, 0.800904] meters
 ![alt text][image3]
 ## Dependencies
 
