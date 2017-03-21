@@ -9,7 +9,7 @@
 The fllowing image describes the workflow of our implementation.
 ![alt text][image1]
 ## Input data
-'''
+```
 #L(for laser) meas_px meas_py timestamp gt_px gt_py gt_vx gt_vy
 #R(for radar) meas_rho meas_phi meas_rho_dot timestamp gt_px gt_py gt_vx gt_vy
 -----------------------------
@@ -20,7 +20,7 @@ L	8.45	0.25	1477010443349642	8.45	0.25	-3.00027	0
 
 #Output file format:
 est_px est_py est_vx est_vy meas_px meas_py gt_px gt_py gt_vx gt_vy
-'''
+```
 ## Dependencies
 
 * cmake >= 3.5
