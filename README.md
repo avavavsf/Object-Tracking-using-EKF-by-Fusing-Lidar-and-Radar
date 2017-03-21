@@ -27,9 +27,9 @@ est_px est_py est_vx est_vy meas_px meas_py gt_px gt_py gt_vx gt_vy
 
 ## Results
 We have generated two simulated tracking data to test our implementation, here is the tracking results.
-Track 1. px, py, vx, and vy RMSE: [0.0673348, 0.060873, 0.542241, 0.54518] meters
+Track 1.       px, py, vx, and vy RMSE: [0.0673348, 0.060873, 0.542241, 0.54518] meters
 ![alt text][image2]
-Track 2. px, py, vx, and vy RMSE: [0.186505, 0.190536, 0.499525, 0.800904] meters
+Track 2.       px, py, vx, and vy RMSE: [0.186505, 0.190536, 0.499525, 0.800904] meters
 ![alt text][image3]
 ## Dependencies
 
@@ -53,9 +53,7 @@ Track 2. px, py, vx, and vy RMSE: [0.186505, 0.190536, 0.499525, 0.800904] meter
    some sample inputs in 'data/'.
     - eg. `./ExtendedKF ../data/sample-laser-radar-measurement-data-1.txt output.txt`
 
-## Generating Additional Data
-
-This is optional!
+## Generating Your Own Data
 
 If you'd like to generate your own radar and lidar data, see the
 [utilities repo](https://github.com/udacity/CarND-Mercedes-SF-Utilities) for
