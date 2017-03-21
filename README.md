@@ -6,6 +6,7 @@
 
 
 ## Workflow
+All the formulas can be found in the [document here](./sensor-fusion-ekf-reference.pdf):
 The fllowing image describes the workflow of our implementation.
 ![alt text][image1]
 ## Input and output data format
