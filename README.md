@@ -8,8 +8,10 @@
 ## Workflow
 The fllowing image describes the workflow of our implementation.
 ![alt text][image1]
-## Input data
+## Input and output data format
+Input data is located in the "data" directory. Here is the data format description.
 ```
+#Input file format:
 #L(for laser) meas_px meas_py timestamp gt_px gt_py gt_vx gt_vy
 #R(for radar) meas_rho meas_phi meas_rho_dot timestamp gt_px gt_py gt_vx gt_vy
 -----------------------------
@@ -21,6 +23,13 @@ L	8.45	0.25	1477010443349642	8.45	0.25	-3.00027	0
 #Output file format:
 est_px est_py est_vx est_vy meas_px meas_py gt_px gt_py gt_vx gt_vy
 ```
+
+## Results
+We have generated two simulated tracking data to test our implementation, here is the tracking results.
+Track 1.
+![alt text][image2]
+Track 2.
+![alt text][image3]
 ## Dependencies
 
 * cmake >= 3.5
